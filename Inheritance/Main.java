@@ -2,10 +2,8 @@ package Inheritance;
 
 public class Main {
 	public static void main(String[] args) {
-		Animal animal = new Animal("animal");
-		Cat kedi = new Cat("cat");
+		Car car = new Car("Ford");
 
-		animal.makeSound();
-		kedi.makeSound();
+		car.honk();
 	}
 }

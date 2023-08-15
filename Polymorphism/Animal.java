@@ -1,4 +1,4 @@
-package Inheritance;
+package Polymorphism;
 
 public class Animal {
 	private String name;
