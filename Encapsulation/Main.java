@@ -1,4 +1,4 @@
-package OOP;
+package Encapsulation;
 
 public class Main
 {
