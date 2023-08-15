@@ -1,4 +1,4 @@
-package StudentInformationSystem;
+package OOP;
 
 public class Student
 {

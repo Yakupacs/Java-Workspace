@@ -1,12 +1,12 @@
-package StudentInformationSystem;
+package OOP;
 
 public class StudentInformationSystem
 {
 	public static void main(String[] args) {
-	Student student = new Student("John", "Doe");
-	student.setMidtermScore(85);
+	Student student = new Student("Yakup", "Açış");
+	student.setMidtermScore(35);
 	student.setQuizScore(75);
-	student.setFinalScore(90);
+	student.setFinalScore(80);
 
 	System.out.println("Student Name: " + student.getFullName());
 	System.out.println("Average Score: " + student.calculateAverage());
