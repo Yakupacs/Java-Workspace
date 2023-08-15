@@ -1,3 +1,5 @@
+package StudentInformationSystem;
+
 public class Student
 {
 	private String firstName;
@@ -42,8 +44,27 @@ public class Student
 	public double getQuizScore() {
 		return quizScore;
 	}
-}
+	public String getFullName()
+	{
+		return firstName + " " + lastName;
+	}
+	public double calculateAverage()
+	{
+		return (midtermScore + quizScore + finalScore) / 3;
+	}
+	public String getGrade()
+	{
+		double average = calculateAverage();
 
-public class StudentInformationSystem {
-	
+		if (average >= 90)
+			return "A";
+		else if (average >= 80)
+			return "B";
+		else if (average >= 70)
+			return "C";
+		else if (average >= 60)
+			return "D";
+		else
+			return "F";
+	}
 }
