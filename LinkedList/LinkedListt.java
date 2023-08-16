@@ -9,8 +9,21 @@ public class LinkedListt {
 		cars.add(0, "Volvo");
 		cars.add(0, "BMW");
 		cars.add(0, "Mercedes");
-
+		cars.addFirst("Audi");
+		cars.addFirst("Citroen");
+		cars.addLast("Renault");
+		
+		int i = 0;
 		for (String car: cars)
-			System.out.println(car);
+		{
+			i++;
+			System.out.println(i + ". " + car);
+		}
+
+		if (cars.contains("Citroen"))
+			System.out.println("Citroen added.");
+		else
+			System.out.println("Citroen is not added.");
+
 	}
 }
